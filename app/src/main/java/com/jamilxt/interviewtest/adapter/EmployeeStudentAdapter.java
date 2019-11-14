@@ -17,7 +17,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-public class CommonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class EmployeeStudentAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
 
     public static final int STUDENT_LAYOUT = 1;
@@ -26,7 +26,7 @@ public class CommonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     private Context context;
     private List<Data> combinedList;
 
-    public CommonAdapter(Context context, List<Data> combinedList) {
+    public EmployeeStudentAdapter(Context context, List<Data> combinedList) {
         this.context = context;
         this.combinedList = combinedList;
     }

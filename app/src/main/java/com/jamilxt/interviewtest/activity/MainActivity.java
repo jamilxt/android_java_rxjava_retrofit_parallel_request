@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.jamilxt.interviewtest.R;
-import com.jamilxt.interviewtest.adapter.CommonAdapter;
+import com.jamilxt.interviewtest.adapter.EmployeeStudentAdapter;
 import com.jamilxt.interviewtest.api.RequestInterface;
 import com.jamilxt.interviewtest.model.Data;
 import com.jamilxt.interviewtest.model.Employee;
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete() {
 
-                        CommonAdapter adapter = new CommonAdapter(MainActivity.this, combinedList);
+                        EmployeeStudentAdapter adapter = new EmployeeStudentAdapter(MainActivity.this, combinedList);
                         mRecyclerView.setAdapter(adapter);
 
                     }
