@@ -12,4 +12,5 @@ You have to call those api parallely and poulate a list where employe details wi
 
 ![Solid](https://github.com/shuza/Android-Task/blob/master/Photo/Home.jpg)
 
-Main reference: https://github.com/teachmind/android-coding-test-jamilxt
+### Requirement reference
+https://github.com/teachmind/android-coding-test-jamilxt
